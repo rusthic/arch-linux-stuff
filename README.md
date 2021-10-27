@@ -1,2 +1,2 @@
 # arch-linux-stuff
-Arch install scrip and dots backups
+Arch install script and dots backups
