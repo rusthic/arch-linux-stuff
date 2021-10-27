@@ -26,10 +26,10 @@ systemctl enable NetworkManager
 systemctl enable fstrim.timer
 
 useradd -m rusthic
-echo ermanno:password | chpasswd
-usermod -aG ermanno
+echo rusthic:password | chpasswd
+usermod -aG rusthic
 
-echo "rusthic ALL=(ALL) ALL" >> /etc/sudoers.d/ermanno
+echo "rusthic ALL=(ALL) ALL" >> /etc/sudoers.d/rusthic
 
 
 printf "\e[1;32mDone! Type exit, umount -a and reboot.\e[0m"
